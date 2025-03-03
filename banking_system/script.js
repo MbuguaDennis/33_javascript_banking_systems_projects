@@ -9,7 +9,7 @@ const withdrawBtn = document.getElementById("withdraw-btn");
 const depositAmount = document.getElementById("deposit-amount");
 const withdrawAmount = document.getElementById("withdraw-amount");
 const transactionHistory = document.getElementById("transaction-history");
-const logoutButton = document.querySelector('.logout')
+const logoutButton = document.querySelector('.logout');
 
 // check if user is logged in
 let user = JSON.parse(localStorage.getItem("user")) || null;

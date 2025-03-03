@@ -35,12 +35,6 @@ button {
     position: absolute;
 
 }
-
-
-
-
-
-
 button:hover, button:focus {
     background: darkblue;
 }
